@@ -16,7 +16,7 @@
 
 
 
-        <TextBox CommandManager.PreviewExecuted="tb_PreviewExecuted"
+        <TextBox Background="LightBlue" CommandManager.PreviewExecuted="tb_PreviewExecuted"
         
             x:Name="tb" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="275" Margin="45,40,0,0" Height="65">
 
