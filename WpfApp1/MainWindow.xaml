@@ -9,8 +9,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="611.4" Width="648.2">
 
-  
-    
+
+
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="175,145,0,0" VerticalAlignment="Top" Width="75" />
 
@@ -18,7 +18,7 @@
 
         <TextBox CommandManager.PreviewExecuted="tb_PreviewExecuted"
         
-            x:Name="tb" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="150" Margin="45,40,0,0">
+            x:Name="tb" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="275" Margin="45,40,0,0" Height="65">
 
             <TextBox.CommandBindings>
                 <CommandBinding Command="ApplicationCommands.Paste"
@@ -27,8 +27,8 @@
             </TextBox.CommandBindings>
 
         </TextBox>
-        
-        
+
+
         <Button  HorizontalAlignment="Left" Margin="75,260,0,0" VerticalAlignment="Top" Width="300" Height="175">
             <Image x:Name="img1" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Width="100" Height="100"/>
 

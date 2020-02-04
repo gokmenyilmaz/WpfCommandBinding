@@ -33,6 +33,7 @@ namespace WpfApp1
         private void tb_PreviewExecuted(object sender, ExecutedRoutedEventArgs e)
         {
 
+
         }
 
         private void CommandBinding_PreviewCanExecute(object sender, CanExecuteRoutedEventArgs e)
